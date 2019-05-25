@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 class Negociacao {
   constructor(data, quantidade, valor) {
     this._data = data;

@@ -1,10 +1,8 @@
-var campos = [
+const campos = [
   document.querySelector('#data'),
   document.querySelector('#quantidade'),
   document.querySelector('#valor')
 ];
-
-console.log(campos);
 
 const tbody = document.querySelector('table tbody');
 document.querySelector('.form').addEventListener('submit', event => {
